@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button 
+        android:id="@+id/startAudio"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        
+        android:text="start"></Button>
+    <Button 
+        android:id="@+id/stopAudio"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:text="stop"></Button>
+    <Button 
+        android:id="@+id/exitAudio"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:text="exit"></Button>
+
+</LinearLayout>

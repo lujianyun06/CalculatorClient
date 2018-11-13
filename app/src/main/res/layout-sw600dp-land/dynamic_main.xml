@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical" >
+	<LinearLayout
+	    android:id="@+id/ly"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+		<SurfaceView 
+		    android:id="@+id/VideoPlay"
+		    android:background="@drawable/bg3"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    />
+	</LinearLayout>
+	<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="4"
+    android:orientation="horizontal" >
+		<Button
+		    android:id="@+id/start"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:text="start"></Button>
+		<Button
+		    android:id="@+id/hide"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:text="hide"></Button>
+		<Button
+		    android:id="@+id/stop"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:text="stop"></Button>
+
+		<Button
+		    android:id="@+id/exit"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:text="exit"></Button>
+	</LinearLayout>
+</LinearLayout>
